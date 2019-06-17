@@ -16,14 +16,18 @@
     <table class="table table-bordered">
         <thead>
         <tr>
+
             <th style="padding-left: 15px;">Id</th>
             <th>Nome</th>
             <th>CPF</th>
             <th>Telefone</th>
             <th>CEP</th>
             <th>Rua</th>
-            <th>Número</th>
             <th>Bairro</th>
+            <th>Cidade</th>
+            <th>Estado</th>
+            <th>Número</th>
+            <th>IBGE</th>
             <th width="140px;">Ação</th>
         </tr>
         </thead>
@@ -36,8 +40,11 @@
             <td>{!! $passageiro->telefone !!}</td>
             <td>{!! $passageiro->cep !!}</td>
             <td>{!! $passageiro->rua !!}</td>
-            <td>{!! $passageiro->numero !!}</td>
             <td>{!! $passageiro->bairro !!}</td>
+            <td>{!! $passageiro->cidade !!}</td>
+            <td>{!! $passageiro->estado !!}</td>
+            <td>{!! $passageiro->numero !!}</td>
+            <td>{!! $passageiro->ibge !!}</td>
             <td>
                 <a class="btn btn-success btn-sm" href="passageiros/{!! '' . $passageiro->id . '/edit' !!}">Editar</a>
 

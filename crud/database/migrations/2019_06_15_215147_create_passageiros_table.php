@@ -18,10 +18,13 @@ class CreatePassageirosTable extends Migration
             $table->string('nome');
             $table->string('cpf');
             $table->string('telefone');
-            $table->integer('cep');
+            $table->char('cep');
             $table->string('rua');
             $table->integer('numero');
             $table->string('bairro');
+            $table->string('cidade');
+            $table->string('estado');
+            $table->integer('ibge');
             $table->timestamps();
         });
     }

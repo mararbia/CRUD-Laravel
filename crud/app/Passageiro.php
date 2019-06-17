@@ -7,6 +7,6 @@ use Illuminate\Database\Eloquent\Model;
 class Passageiro extends Model
 {
     protected $fillable = [
-        'nome', 'cpf', 'telefone', 'cep', 'rua', 'numero', 'bairro'
+        'nome', 'cpf', 'telefone', 'cep', 'rua', 'numero', 'bairro', 'cidade', 'ibge', 'estado', 'ibge'
     ];
 }

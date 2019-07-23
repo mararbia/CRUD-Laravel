@@ -48,10 +48,7 @@
             <td>
                 <a class="btn btn-success btn-sm" href="passageiros/{!! '' . $passageiro->id . '/edit' !!}">Editar</a>
 
-                {!! Form::open(['id' => 'deleteForm', 'method' => 'DELETE', 'url' => '/passageiros/' . $passageiro->id]) !!}
-                {!! Form::submit('Deletar', ['class' => 'btn btn-danger btn-sm']) !!}
-                {!! Form::close() !!}
-            </td>
+                            </td>
         </tr>
     @endforeach
 

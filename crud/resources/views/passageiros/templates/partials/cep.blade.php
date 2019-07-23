@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title>ViaCEP Webservice</title>
+    <title>CRUD - ETAC</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
     <!-- Adicionando Javascript -->
